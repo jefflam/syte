@@ -60,7 +60,7 @@ DISQUS_SHORTNAME = 'jefflamth'
 
 
 
-if DEPLOYMENT_MODE == 'dev':
+if DEPLOYMENT_MODE == 'prod':
     SITE_ROOT_URI = 'http://127.0.0.1:8000/'
     DEBUG = True
 else:
