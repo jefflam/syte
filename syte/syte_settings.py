@@ -3,9 +3,9 @@ DEPLOYMENT_MODE = 'dev'
 COMPRESS_REVISION_NUMBER = '1.0'
 
 #Blog Integration: Tumblr
-TUMBLR_BLOG_URL = '[ENTER TUMBLR BLOG URL] ex. rigoneri.tumblr.com'
+TUMBLR_BLOG_URL = 'jefflam.tumblr.com'
 TUMBLR_API_URL = 'http://api.tumblr.com/v2/blog/{0}'.format(TUMBLR_BLOG_URL)
-TUMBLR_API_KEY = '[ENTER TUMBLR API KEY HERE, SEE TUMBLR SETUP INSTRUCTIONS]'
+TUMBLR_API_KEY = '2ZyHUYJdmPPoO1vrj8yyGUkTPVg6gPOK2cfy4kJJ6cTjOTmBaT'
 
 #RSS Feed Integration: (by default use Tumbrl rss feed)
 RSS_FEED_ENABLED = True
@@ -55,8 +55,8 @@ GOOGLE_ANALYTICS_TRACKING_ID = ''
 
 
 #Disqus Integration
-DISQUS_INTEGRATION_ENABLED = False
-DISQUS_SHORTNAME = ''
+DISQUS_INTEGRATION_ENABLED = True
+DISQUS_SHORTNAME = 'jefflamth'
 
 
 
