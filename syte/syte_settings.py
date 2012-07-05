@@ -65,6 +65,6 @@ if DEPLOYMENT_MODE == 'dev':
     DEBUG = True
 else:
     DEBUG = False
-    SITE_ROOT_URI = 'jefflamsyte.heroku.com/'
+    SITE_ROOT_URI = 'jefflamsyte.herokuapp.com/'
 
 MEDIA_URL = SITE_ROOT_URI + 'static/'
